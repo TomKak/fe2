@@ -6,8 +6,8 @@ module.exports = {
   app_root: app_root, // the app root folder, needed by the other webpack configs
   entry: [
     // http://gaearon.github.io/react-hot-loader/getstarted/
-    //'webpack-dev-server/client?http://localhost:3000',
-    'webpack-dev-server/client?https://tomasz-kakol-clientjs-zti.eu-gb.mybluemix.net/',
+    'webpack-dev-server/client?http://localhost:3000',
+    //'webpack-dev-server/client?https://tomasz-kakol-clientjs-zti.eu-gb.mybluemix.net/',
     'webpack/hot/only-dev-server',
     'babel-polyfill',
     __dirname + '/' + app_root + '/index.js',

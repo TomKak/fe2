@@ -29,7 +29,7 @@
       "stage-3"
     ]
   },
-  "author": "Tomasz Kąkol",
+  "author": "Tomasz Kako",
   "license": "MIT",
   "dependencies": {
     "jsdoc-react": "^1.0.0",

@@ -20,8 +20,10 @@ export default function items(state = {}, action) {
         Number(item.id) !== Number(action.item_id)
       );
 
-    // initial state
-    default:
+    /**
+     *initial state
+     */
+     default:
       return state;
   }
 }
